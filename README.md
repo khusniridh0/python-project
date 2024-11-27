@@ -1,8 +1,73 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Logo](https://khusniridh0.github.io/creator/assets/img/logo.png)
 
-Currently, two official plugins are available:
+# Tugas UTS Server Site Programing
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Aplikasi yang saya buat untuk pengelolaan karyawan dengan 3 role user yang berbeda, terdapat admin yang dapat mengelola manajer dan karyawan, manajer bertugas sebagai pengelola karyawan, karyawan hanya dapat absen pada Aplikasi
+
+## Fitur
+
+- Login
+- Absen
+- CRUD manajer
+- CRUD karyawan
+- Penggajian by karyawan
+
+
+## Teknologi yang digunakan
+
+**Client:** React + Vite, Boostrap 5
+
+**Server:** Python
+
+
+## Menjalankan Server
+
+Unduh project
+```bash
+  git clone https://github.com/khusniridh0/python-project.git
+```
+
+Masuk ke dalam project
+```bash
+  cd core
+```
+
+Install dependencies
+```bash
+  pip Install -r requirement.txt
+```
+
+Migrasi database
+```bash
+  python manage.py makemigrations
+```
+
+```bash
+  python manage.py migrate
+```
+
+Jalankan Server
+```bash
+  python manage.py runserver
+```
+
+## Menjalankan Client
+
+Masuk ke dalam project
+```bash
+  cd client
+```
+
+Install dependencies
+```bash
+  npm install
+```
+
+Jalankan client
+```bash
+  npm run dev
+```
+## Kesimpulan
+
+Project ini saya buat untuk pengembangan awal dari pengelolaan karyawan yang lebih baik dapat di sesuaikan dengan permintaan perusahaan / sekolah atau pun instansi lain. dengan ini penerima dapat melihat demo dan memiliki rancangan dasar dari pengembangan sistem informasi yang akan datang. penerima juga dapat berkontribusi dalam pengembangan.
