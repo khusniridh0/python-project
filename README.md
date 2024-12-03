@@ -5,6 +5,16 @@
 
 Aplikasi yang saya buat untuk pengelolaan karyawan dengan 3 role user yang berbeda, terdapat admin yang dapat mengelola manajer dan karyawan, manajer bertugas sebagai pengelola karyawan, karyawan hanya dapat absen pada Aplikasi
 
+
+### ERD
+![ERD](ERD.png)
+
+Terdapat 3 table dalam Projek ini
+
+- User
+- Absen
+- Salary
+
 ## Fitur
 
 - Login
